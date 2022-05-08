@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url("Uniteam Poster.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(8px);
+  }
+   
+   .navbar {
+     top: 0;
+    position: ;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+  min-width: 1000px;
+    background-color: #f42041;
+    border-bottom: solid 5px #000000;
+  }
+  .brand-title img {
+    padding: 0;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    margin: 0% 49%;
+    width: 45px ;
+    height: 45px;
+    cursor: pointer;
+  }/*
+  .navbar-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar-search input {
+    text-transform: capitalize;
+    border: none;
+    border-radius: 15px;
+    color: #990000;
+    background-color: #b3b3b3;
+    padding: 0 10px;
+    height:40px ;
+    width:300px ;
+  }
+  .navbar-search ::-webkit-input-placeholder{
+    border-radius: 0 solid #000000;
+    transform: transparent;
+    color: #fff;
+  }
+  .navbar-search :hover::-webkit-input-placeholder{
+    color: #333;
+  }
+  
+  .navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .navbar ul li {
+    list-style: none;
+    margin: 10px 0px;
+  }
+  .navbar ul li i {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    margin-bottom: -30px;
+  }
+  .navbar ul li i:hover {
+    color: #000000;
+  }
+  .navbar ul li a {
+    margin: 0px 10px;
+    padding: 20px 25px ;
+    text-align: center;
+    font-size: 15px;
+    color: #fff ;
+    text-decoration: none;
+  }
+  .navbar ul li a:hover {
+     color: #000000;
+     background-color: #ccc;
+  } 
+  .navbar ul li ul li a {
+    text-align: center;
+    display: block;
+    padding: 10px 14px;
+  }
+  .navbar ul li ul li a:hover {
+    border-radius: 0px;
+    border: solid 0 #000000;
+    
+  }
+   .navbar ul li ul {
+     margin-top: 25px;
+     padding: 5px  0px ;
+     display: none;
+     position: absolute;
+     background-color: #333;
+   }
+    .navbar ul li:hover ul {
+      display: block;
+    }*/
+
+
+
+    .header-title {
+      max-height: 150px;
+      width: 100%;
+      background-color: #ccc;
+      border-bottom: 2px solid  #333;
+    }
+    .header-title ul {
+      justify-content: space-between;
+      display: flex;
+    }
+    .header-title ul li {
+      margin: 20px 7%;
+      list-style:none;
+    }
+    .header-title ul li a img {
+      margin: 25px 0px;
+      max-height: 150px;
+      width: 150px;
+    }    
+  
+  
+
+.content {
+  width: auto;
+  height: 100vh;
+  margin: 10% 25% ;
+  text-align: center;
+
+}
+.content-title {
+  margin: 10% 0%;
+}
+.content-title h1 {
+  font-family: URW Chancery;
+  text-align: center;
+  font-size: 60px;
+}
+.content ul li {
+  list-style: none;
+}
+.content .section-1 {
+  border-radius: 10px 10px 0px 0px ;
+  border: 2px solid #404040;
+  padding: 20px 0px;
+  background-color: #e60000;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.content .section-1 h1 {
+  font-family: Times New Roman;
+  color: #fff;
+  margin: 20px;
+  font-size: 28px;
+}
+.content .section-1 a {
+  text-decoration: none ;
+}
+.content .section-1 h3 {
+  color: #fff;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+}
+.content .section-1 h5 {
+  margin-top: 20px;
+}
+.content .section-1 img {
+  width:100%;
+  height: 350px;
+}
+
+
+
+.content .section-2 {
+  border: 2px solid #404040;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #e60000;
+  height: 50vh;
+}
+.content .section-2 h1 {
+  color: #fff;
+  font-family: Times New Roman;
+  margin: 40px 0px;
+}
+.content .section-2 span a {
+  color: #000000;
+  font-size: 15px;
+}
+.content .section-2 p {
+  /*overflow-x: scroll;
+  white-space: nowrap;*/
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  margin: 0% 12.5%;
+}
+
+
+
+
+
+
+.content .section-3 {
+  margin-top: 20px;
+  border-radius: 0px 0px 10px 10px;
+  border: solid 2px #404040;
+  padding: 20px 0px;
+  width: 100%;
+  background-color:#e60000 ;
+}
+.content .section-3 ol {
+  margin: 20px 10px;
+  text-align: left;
+  list-style: none;
+}
+.content .section-3 ol li h1 {
+  font-family: Times New Roman;
+  color:  #009900;
+}
+.content .section-3 ol li h2 {
+  color: #fff;
+  font-size: 20px;
+
+}
+
+/*footer copied*/
+
+
+.footer {
+  vertical-align: baseline;
+  top: 100%;
+  bottom: 0;
+  margin-top: 100% ;
+  background-color: #990000;
+  padding: 20px 30px;
+}
+.footer .row {
+  margin:2.5rem 0rem 2.5rem 5rem;
+}
+.footer .footer-col h4 {
+  font-size: 25px;
+  color: #d9d9d9;
+}
+.footer .footer-col ul {
+  display: flex;
+}
+.footer .footer-col ul li {
+  margin:1.5rem 0rem 1.5rem 1.5rem ;
+  list-style: none;
+}
+.footer .footer-col ul li a {
+  color: white;
+}
+.footer .footer-col ul li a:hover {
+  color: #a6a6a6;
+}
+
+
+
+
+.footer .footer-col-2 h4 {
+  font-size: 18px;
+  margin: 20px 0px;
+  color: #d9d9d9;
+}
+.footer .footer-col-2 a{
+  max-width: 74px;
+}
+.footer .footer-col-2 a i {
+  color: #000000;
+  padding: 10px 12.5px;
+  margin: 2.5rem 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.footer .footer-col-2 a i:hover {
+  color:#fff;
+  background-color: #000000;
+}
+
+
